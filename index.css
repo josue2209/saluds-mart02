@@ -214,12 +214,79 @@
   width:100%;
   height: auto;
   gap: 70px;
-  /* margin-bottom: -40px; */
+  margin-bottom: 40px;
 }
 
-.card01{
+.btn-categoria1{
   display: flex;
+  flex-direction: row;
   background-image: url(./img/yoga.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 23%;
+  height: 180px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-categoria2{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/doctor-work.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 23%;
+  height: 180px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-categoria3{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/consejo.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 23%;
+  height: 180px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-categoria4{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/habitos.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 23%;
+  height: 180px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-categoria5{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/belleza.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 23%;
+  height: 180px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-categoria6{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/nutricion.jpg);
+  background-size: cover;
   margin-top: 60px;
   border-radius: 20px;
   width: 23%;
@@ -229,60 +296,20 @@
 }
 
 
-.card02{
+.baground-card label{
   display: flex;
-  background-image: url(./img/doctor-work.jpg);
-  background-size: cover;
-  margin-top: 60px;
-  border-radius: 20px;
-  width: 23%;
-  height: 180px;
-  cursor: pointer;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.card03{
-  display: flex;
-  background-image: url(./img/consejo.jpg);
-  background-size: cover;
-  margin-top: 60px;
-  border-radius: 20px;
-  width: 23%;
-  height: 180px;
-  cursor: pointer;
-}
-
-.card04{
-  display: flex;
-  background-image: url(./img/habitos.jpg);
-  margin-top: 60px;
-  border-radius: 20px;
-  width: 23%;
-  height: 180px;
-  cursor: pointer;
-}
-
-.card05{
-  display: flex;
-  background-image: url(./img/belleza.jpg);
-  background-size: cover;
-  background-position: center center;
-  margin-top: 60px;
-  border-radius: 20px;
-  width: 23%;
-  height: 180px;
-  cursor: pointer;
-}
-
-.card06{
-  display: flex;
-  background-image: url(./img/nutricion.jpg);
-  background-size: cover;
-  margin-top: 60px;
-  border-radius: 20px;
-  width: 23%;
-  height: 180px;
-  cursor: pointer;
-}
 
 .baground-card{
   display: flex;
@@ -296,15 +323,6 @@
   text-decoration: none;
 }
 
-
-.baground-card a{
-  color: #fff;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .container-general{
   display: flex;
@@ -327,6 +345,7 @@
   width: 98%;
   height: 65px;
   border-radius: 20px;
+  margin-top: 40px;
 }
 
 .container-img-texto{
@@ -643,6 +662,7 @@
   margin-top: 10px;
   height: 35px;
   padding: 5px;
+  cursor: pointer;
 }
 
 #comentario{
@@ -733,14 +753,6 @@
     text-align: center;
   }
 
-  .container-inputs{
-    align-items: center;
-  }
-
-  .container-inputs label{
-    margin-left: -145px;
-  }
-
   .titulo02{
     font-size: 25px;
     width: 93%;
@@ -793,32 +805,32 @@
     font-size: 4em;
   }
   
-  .card01{
+  .btn-categoria1{
     width: 80%;
     margin-bottom: -40px;
   }
 
-  .card02{
+  .btn-categoria2{
     width: 80%;
     margin-bottom: -40px;
   }
 
-  .card03{
+  .btn-categoria3{
     width: 80%;
     margin-bottom: -40px;
   }
 
-  .card04{
+  .btn-categoria4{
     width: 80%;
     margin-bottom: -40px;
   }
 
-  .card05{
+  .btn-categoria5{
     width: 80%;
     margin-bottom: -40px;
   }
 
-  .card06{
+  .btn-categoria6{
     width: 80%;
     margin-bottom: -40px;
   }
@@ -847,6 +859,7 @@
     height: auto;
   }
 
+  
 }
 
 
@@ -861,16 +874,6 @@
   box-sizing: border-box;
 }
 
-nav{
-  /* background-color: aqua; */
-  height: 80px;
-  width: 100%;
-}
-
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
 
 .enlace{
   position: relative;
@@ -880,21 +883,6 @@ nav ul{
   font-weight: bold;
   font-size: 20px;
   color: #fff;
-}
-
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0px 5px;
-}
-
-nav ul li a {
-  color: #fff;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 7px 13px;
-  border-radius: 3px;
 }
 
 .checkbtn{
@@ -932,14 +920,15 @@ nav ul li a {
     padding-left: 20px;
   }
 
-  nav ul li a {
-    font-size: 16px;
-  }
 }
 
 @media(max-width:858px){
   .checkbtn{
     display: block;
+  }
+
+  .encabezado ul{
+    flex-direction: column;
   }
 
   ul{
@@ -953,16 +942,6 @@ nav ul li a {
     transition: all 0.5s;
   }
 
-  nav ul li{
-   display: block;
-   margin: 50px 0px;
-   line-height: 30px;
-  }
-  
-  nav ul li a{
-    font-size: 20px;
-   }
-
    #check:checked ~ ul{
     left:0;
    }
@@ -971,3 +950,89 @@ nav ul li a {
     margin-top: 30px;
   }
 }
+
+
+.encabezado{
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+.img-logo{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.encabezado nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.encabezado a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 12px 20px;
+  display: block;
+  font-weight: bold;
+}
+
+a:hover{
+  background-color: rgb(58, 171, 2);
+}
+
+.encabezado ul{
+ display: flex;
+ justify-content: space-between;
+}
+
+.encabezado nav ul li ul{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .encabezado nav ul li ul{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.49);
+ }
+
+ .encabezado nav ul li ul li{
+  width: 180px;
+  position: relative;
+ }
+
+ .encabezado nav ul li ul li ul{
+  top: 0;
+  left: 180px;
+  position: absolute;
+ }
+
+ .encabezado nav ul li ul{
+  display: none;
+ }
+
+ .encabezado nav ul li:hover > ul{
+  display: block;
+ }
+ 
+ .container-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+ }
+
+ .container-logo p{
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+ }
+
+ 
+
+ 
+
